@@ -9,8 +9,23 @@ a {
   color: #f9a620;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* nav section */
 
 nav ul {
+  margin-top: 0;
   list-style: none;
+  padding: 0;
+}
+
+nav li {
+  background-color: #99d17b;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
