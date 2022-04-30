@@ -3,6 +3,7 @@
 body {
   color: white;
   background-color: #4d5057;
+  font-family: "Public Sans", sans-serif;
 }
 
 a {
@@ -28,4 +29,11 @@ nav li {
   margin-bottom: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+nav a {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
 }
