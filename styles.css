@@ -8,3 +8,9 @@ body {
 a {
   color: #f9a620;
 }
+
+/* nav section */
+
+nav ul {
+  list-style: none;
+}
