@@ -24,16 +24,20 @@ nav ul {
 }
 
 nav li {
+  display: flex;
   background-color: #99d17b;
-  text-align: center;
   margin-bottom: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  height: 6.3rem;
 }
 
 nav a {
+  display: flex;
   color: black;
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
