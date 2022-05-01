@@ -28,6 +28,7 @@ nav li {
   background-color: #99d17b;
   margin-bottom: 1rem;
   height: 6.3rem;
+  border-radius: 15px;
 }
 
 nav a {
@@ -40,4 +41,13 @@ nav a {
   justify-content: center;
   height: 100%;
   width: 100%;
+}
+
+/* header section */
+
+.banner {
+  background-image: url(img/banner-img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
 }
