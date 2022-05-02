@@ -46,6 +46,10 @@ nav a {
   width: 100%;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* header section */
 
 h1 {
@@ -58,7 +62,8 @@ h1 {
 
 .banner {
   background-image: url(img/banner-img.jpg);
-  background-size: cover;
+  background-size: stretch;
+  background-repeat: no-repeat;
   background-position: center;
   height: 600px;
 }
