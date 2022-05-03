@@ -18,15 +18,21 @@ a {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
 h2 {
   text-align: center;
   font-size: 2rem;
 }
 
 article {
+  width: 500px;
   padding: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   border-radius: 10px;
 }
 
