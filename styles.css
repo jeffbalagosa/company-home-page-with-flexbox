@@ -102,3 +102,21 @@ h1 {
 #instructors article {
   background-color: #009fb7;
 }
+
+/* media queries */
+
+@media only screen and (min-width: 700px) {
+  article {
+    width: 90%;
+    max-width: 600px;
+  }
+
+  .main-instructor {
+    max-width: 750px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 7px) {
+}
