@@ -18,6 +18,23 @@ a {
   margin: 0 auto;
 }
 
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+article {
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+article img {
+  width: 100%;
+  box-shadow: 5px 5px 5px black;
+}
+
 /* nav section */
 
 nav ul {
@@ -46,21 +63,8 @@ nav a {
   width: 100%;
 }
 
-h2 {
-  text-align: center;
-  font-size: 2rem;
-}
-
-article {
-  padding: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 10px;
-}
-
-article img {
-  width: 100%;
-  box-shadow: 5px 5px 5px black;
+.desktop {
+  display: none;
 }
 
 /* header section */
