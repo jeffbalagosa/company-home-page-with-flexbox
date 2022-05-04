@@ -103,6 +103,12 @@ h1 {
   background-color: #009fb7;
 }
 
+/* mission section */
+
+#mission {
+  text-align: center;
+}
+
 /* media queries */
 
 @media only screen and (min-width: 700px) {
