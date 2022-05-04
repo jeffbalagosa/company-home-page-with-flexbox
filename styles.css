@@ -117,3 +117,56 @@ h1 {
     margin-right: 20%;
   }
 }
+
+@media only screen and (min-width: 992px) {
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  /* nav section */
+
+  nav ul {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+
+  nav li {
+    background-color: transparent;
+    margin-bottom: 0;
+    height: auto;
+    border-radius: 0;
+  }
+
+  nav a {
+    color: #f9a620;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  footer {
+    border-top: 5px solid #99d17b;
+  }
+
+  #contact {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+}
