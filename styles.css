@@ -109,6 +109,15 @@ h1 {
   text-align: center;
 }
 
+#mission p {
+  background-color: #a690a4;
+  border-radius: 10px;
+  width: 100%;
+  padding: 250px 2rem;
+  font-size: 2rem;
+  box-sizing: border-box;
+}
+
 /* media queries */
 
 @media only screen and (min-width: 700px) {
@@ -125,6 +134,10 @@ h1 {
 }
 
 @media only screen and (min-width: 992px) {
+  p {
+    font-size: 1.5rem;
+  }
+
   a {
     text-decoration: none;
   }
